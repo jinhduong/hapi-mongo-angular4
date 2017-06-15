@@ -1,0 +1,41 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <h1 i18n>Login</h1>
+  <!--Username-->
+  <div class="form-group">
+    <label i18n>Email</label>
+    <input class="form-control" formControlName="email" type="text" placeholder="Email..." i18n-placeholder="Email...">
+  </div>
+  <!--Errors tracking-->
+  <div ngxErrors="email">
+    <div class="alert alert-danger" ngxError="required" [when]="['dirty', 'touched']">
+      <span i18n>Email is required.</span>
+    </div>
+    <div class="alert alert-danger" ngxError="incorrectMailFormat" [when]="['dirty', 'touched']">
+      <span i18n>Email format incorrect.</span>
+    </div>
+  </div>
+
+  <!--Password-->
+  <div class="form-group">
+    <label i18n>Password</label>
+    <input class="form-control" formControlName="password" type="password" placeholder="Password..." i18n-placeholder="Password...">
+    <!--Errors tracking-->
+    <div ngxErrors="password">
+      <div class="alert alert-danger" ngxError="required" [when]="['dirty', 'touched']">
+        <span i18n>Password is required.</span>
+      </div>
+      <div class="alert alert-danger" [ngxError]="['minlength', 'maxlength']" [when]="['dirty', 'touched']">
+        <span i18n>5 characters minimum, 12 characters maximum.</span>
+      </div>
+    </div>
+  </div>
+  <button [disabled]="form.invalid" class="btn btn-success" type="submit" value="Login" i18n-value="Login">
+    <span class="glyphicon glyphicon-log-in" ></span> 
+    <span i18n> Login</span>
+  </button>
+
+  <div *ngIf="errorMessage!==''" class="alert alert-danger">
+    {{errorMessage}}
+  </div>
+
+</form>
