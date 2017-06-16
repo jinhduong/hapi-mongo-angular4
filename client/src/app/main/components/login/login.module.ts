@@ -1,6 +1,6 @@
-import { AuthService } from './../../core/services/auth.service';
+import { AuthService } from './../../../core/services/auth.service';
+import { SharedModule } from './../../../shared/shared.module';
 import { LoginService } from './@services/login.service';
-import { SharedModule } from './../../shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login.component';
 import { NgModule } from '@angular/core';

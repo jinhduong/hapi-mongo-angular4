@@ -8,7 +8,7 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 // App root
-import { AppComponent } from './app.component';
+import { AppComponent } from './main/app.component';
 
 // Features modules
 import { CoreModule } from './core/core.module';

@@ -4,7 +4,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'login', loadChildren: './components/login/login.module#LoginModule', data: { preload: true }
+    path: 'login', loadChildren: './main/components/login/login.module#LoginModule', data: { preload: true },
+  },
+  {
+    path: 'admin', loadChildren: './admin/admin.module#AdminModule'
   }
 ];
 

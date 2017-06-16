@@ -1,4 +1,3 @@
-import { UserModel } from './../../components/login/@models/user-model';
 import { Injectable } from '@angular/core';
 
 @Injectable()
@@ -6,7 +5,6 @@ import { Injectable } from '@angular/core';
 export class AuthService {
 
     private USER_INFO = 'user_info';
-    private _user: UserModel;
 
     public setUser<T>(user: T): void {
         localStorage[this.USER_INFO] = JSON.stringify(user);

@@ -1,10 +1,10 @@
-import { ErrorMessage } from './../../core/interfaces/http-service.interface';
-import { AuthService } from './../../core/services/auth.service';
+import { ErrorMessage } from './../../../core/interfaces/http-service.interface';
+import { AuthService } from './../../../core/services/auth.service';
 import { UserModel } from './@models/user-model';
 import { LoginService } from './@services/login.service';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { mailFormat } from '../../core/validators';
+import { mailFormat } from '../../../core/validators';
 
 @Component({
   selector: 'app-login',
