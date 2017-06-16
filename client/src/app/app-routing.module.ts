@@ -7,7 +7,7 @@ const routes: Routes = [
     path: 'login', loadChildren: './main/components/login/login.module#LoginModule', data: { preload: true },
   },
   {
-    path: 'admin', loadChildren: './admin/admin.module#AdminModule'
+    path: 'admin', loadChildren: './admin/admin.module#AdminModule', data: { preload: true }
   }
 ];
 

@@ -1,0 +1,25 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "window.zoomLevel": 1,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Inconsolata, 'Consolas', monospace",
+  "typescript.referencesCodeLens.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": true,
+  "vsicons.projectDetection.autoReload": true,
+  "typescript.check.tscVersion": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.ngfactory.ts": true,
+    "**/*.ngsummary.json": true
+  },
+  "indenticator.showHover": true,
+  "cSpell.userWords": [
+    "Injectable",
+    "AUTHENCATION"
+  ]
+}
