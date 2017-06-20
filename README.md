@@ -14,3 +14,6 @@ Technologies:
 **Front-end**
 - Angular 
 - Angular-CLI
+- Some features for core (http, pre-load,...)
+- Some simple components
+- Admin template (Spark/Bootstrap original)
