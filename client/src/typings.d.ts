@@ -16,5 +16,6 @@ interface AppLibs {
   pace: boolean;
 }
 
+declare var $: any;
 declare var __appConfig__: ApiConfig;
 declare var __appLibs: AppLibs;
