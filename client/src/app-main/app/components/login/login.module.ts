@@ -1,4 +1,4 @@
-import { AuthService } from '../../core/services/auth.service';
+import { AuthService } from '../../../../core';
 import { SharedModule } from '../../shared/shared.module';
 import { LoginService } from './@services/login.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';

@@ -5,7 +5,7 @@
   },
   "apps": [{
       "name": "app1",
-      "root": "src/main",
+      "root": "src/app-main",
       "outDir": "../dist/app",
       "assets": [
         "../assets",
@@ -33,7 +33,7 @@
     },
     {
       "name": "app2",
-      "root": "src/admin",
+      "root": "src/app-admin",
       "outDir": "dist/admin",
       "assets": [
         "../assets",
@@ -48,7 +48,7 @@
       "testTsconfig": "../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../../src/admin/styles/app.scss"
+        "../../src/app-admin/styles/app.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -59,7 +59,7 @@
     },
     {
       "name": "app3",
-      "root": "src/admin-spark",
+      "root": "src/app-admin-spark",
       "outDir": "dist/admin",
       "assets": [
         "assets",
@@ -74,8 +74,57 @@
       "testTsconfig": "../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "./assets/libs/bootstrap/dist/css/bootstrap.min.css",
+        "./assets/libs/ionicons/css/ionicons.min.css",
+        "./assets/libs/font-awesome/css/font-awesome.min.css",
+        "./assets/libs/summernote/dist/summernote.css",
+        "./assets/libs/fullcalendar/dist/fullcalendar.min.css",
+        "./assets/libs/morris.js/morris.css",
+
+        "./assets/vendor/md-snackbars/md-snackbars.min.css",
+        "./assets/vendor/zabuto/zabuto_calendar.min.css",
+        "./assets/vendor/datatables/datatables.min.css",
+
+        "./assets/css/spark.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/libs/pace-progress/pace.min.js",
+        "./assets/libs/jquery/dist/jquery.min.js",
+        "./assets/libs/tether/dist/js/tether.min.js",
+        "./assets/libs/bootstrap/dist/js/bootstrap.min.js",
+        "./assets/libs/flot/jquery.flot.js",
+        "./assets/libs/flot/jquery.flot.resize.js",
+        "./assets/libs/flot/jquery.flot.crosshair.js",
+        "./assets/libs/flot/jquery.flot.stack.js",
+        "./assets/libs/flot/jquery.flot.pie.js",
+        "./assets/libs/bxslider/dist/jquery.bxslider.min.js",
+        "./assets/libs/jvectormap/jquery-jvectormap.min.js",
+        "./assets/libs/moment/min/moment.min.js",
+        "./assets/libs/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js",
+        "./assets/libs/summernote/dist/summernote.min.js",
+        "./assets/libs/fullcalendar/dist/fullcalendar.min.js",
+        "./assets/libs/morris.js/morris.min.js",
+        "./assets/libs/raphael/raphael.min.js",
+
+        "./assets/vendor/flot/jquery.flot.tooltip.min.js",
+        "./assets/vendor/mark/jquery.mark.min.js",
+        "./assets/vendor/md-snackbars/md-snackbars.min.js",
+        "./assets/vendor/zabuto/zabuto_calendar.min.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-world-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-africa-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-asia-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-cn-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-europe-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-in-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-north_america-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-oceania-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-south_america-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-uk_countries-mill.js",
+        "./assets/vendor/jvectormap/jquery-jvectormap-us-aea.js",
+
+        "./assets/js/spark.js",
+        "./assets/js/pages/dashboard.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

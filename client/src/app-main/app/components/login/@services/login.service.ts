@@ -1,4 +1,4 @@
-import { HttpService } from '../../../core/services/http.service';
+import { HttpService } from '../../../../../core';
 import { LoginModel } from '../@models/login-model';
 import { Injectable } from '@angular/core';
 

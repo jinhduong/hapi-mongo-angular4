@@ -19,3 +19,5 @@ interface AppLibs {
 declare var $: any;
 declare var __appConfig__: ApiConfig;
 declare var __appLibs: AppLibs;
+declare var Page: any;
+declare var Spark: any;

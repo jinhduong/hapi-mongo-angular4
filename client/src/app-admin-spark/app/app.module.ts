@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
+import { CoreModule } from '../../core/core.module';
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CoreModule.forRoot()
   ],
   declarations: [AppComponent],
   providers: [],

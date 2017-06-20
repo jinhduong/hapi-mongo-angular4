@@ -1,7 +1,7 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AdminModule } from './admin/app/admin.module';
+import { AdminModule } from './app-admin/app/admin.module';
 import { environment } from './environments/environment';
 
 declare var require: any;
