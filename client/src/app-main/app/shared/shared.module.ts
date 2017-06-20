@@ -1,5 +1,4 @@
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-// import { LanguageSelectModule } from './controls/language-select/language-select.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -13,14 +12,12 @@ import { NgxErrorsModule } from '@ultimate/ngxerrors';
     NgxErrorsModule,
     FormsModule,
     ReactiveFormsModule
-    // LanguageSelectModule
   ],
   declarations: [],
   exports: [
     NgxErrorsModule,
     FormsModule,
     ReactiveFormsModule
-    // LanguageSelectModule
   ]
 })
 

@@ -20,7 +20,7 @@
       "testTsconfig": "../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../../src/main/styles/styles.less"
+        "../../src/app-main/styles/styles.less"
       ],
       "scripts": [
         "../../src/assets/js/pace.min.js"
@@ -60,7 +60,7 @@
     {
       "name": "app3",
       "root": "src/app-admin-spark",
-      "outDir": "dist/admin",
+      "outDir": "dist/admin-spark",
       "assets": [
         "assets",
         "favicon.ico",

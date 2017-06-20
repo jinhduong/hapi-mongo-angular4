@@ -1,4 +1,4 @@
-import { CustomPreloading } from '../../core/strategies/custom-preloading';
+import { CustomPreloading } from '../../core';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
