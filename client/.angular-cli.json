@@ -104,17 +104,6 @@
         "./assets/vendor/mark/jquery.mark.min.js",
         "./assets/vendor/md-snackbars/md-snackbars.min.js",
         "./assets/vendor/zabuto/zabuto_calendar.min.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-world-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-africa-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-asia-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-cn-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-europe-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-in-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-north_america-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-oceania-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-south_america-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-uk_countries-mill.js",
-        "./assets/vendor/jvectormap/jquery-jvectormap-us-aea.js",
 
         "./assets/js/spark.js",
         "./assets/js/pages/dashboard.js"

@@ -1,3 +1,4 @@
+import { DashboardService } from './@services/dashboard.service';
 import { TitleComponent } from './title/title.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -26,6 +27,7 @@ import { SearchComponent } from './search/search.component';
     AvatarComponent,
     TitleComponent,
     SearchComponent
-  ]
+  ],
+  providers: [DashboardService]
 })
 export class DashboardModule { }

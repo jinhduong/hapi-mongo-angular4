@@ -1,3 +1,4 @@
+import { DashboardService } from './../../@services/dashboard.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +6,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.less']
 })
+
 export class BlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _dsbService: DashboardService
+  ) { }
 
   ngOnInit() {
+    this._dsbService.changeTitle('Blog');
   }
 
 }
