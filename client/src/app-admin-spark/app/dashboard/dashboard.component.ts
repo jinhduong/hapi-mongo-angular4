@@ -7,6 +7,8 @@ import { Component, OnInit, AfterViewInit, AfterContentInit } from '@angular/cor
 })
 export class DashboardComponent implements OnInit, AfterContentInit {
 
+  public title = 'Dashboard';
+
   constructor() { }
 
   ngOnInit() {
@@ -14,7 +16,7 @@ export class DashboardComponent implements OnInit, AfterContentInit {
 
   ngAfterContentInit(): void {
     setTimeout(function () {
-      Page.init();
+      // Page.init();
       Spark.init();
     }, 100);
   }
