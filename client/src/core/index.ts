@@ -13,3 +13,4 @@ export * from './core.module';
 export * from './decorators/auto-unsubscribe';
 export * from './decorators/timeout';
 export * from './decorators/ng-log';
+export * from './decorators/theme.modify';

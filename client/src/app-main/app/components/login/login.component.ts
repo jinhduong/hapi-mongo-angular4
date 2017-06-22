@@ -1,15 +1,15 @@
-import { ErrorMessage } from '../../../../core';
-import { AuthService } from '../../../../core';
-import { mailFormat } from '../../../../core';
+import { mailFormat, ThemeComponent, AuthService, ErrorMessage } from '../../../../core';
 import { UserModel } from './@models/user-model';
 import { LoginService } from './@services/login.service';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { config } from '../../../themes/config';
 
-@Component({
+@ThemeComponent({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.less']
+  styleUrls: ['./login.component.less'],
+  themeConfig: config
 })
 export class LoginComponent implements OnInit {
 
@@ -46,5 +46,4 @@ export class LoginComponent implements OnInit {
       this.errorMessage = err.message;
     }
   }
-
 }

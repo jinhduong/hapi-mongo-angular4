@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'login', loadChildren: './components/login/login.module#LoginModule', data: { preload: true },
+    path: 'login', loadChildren: './components/login/login.module#LoginModule',
   }
 ];
 
