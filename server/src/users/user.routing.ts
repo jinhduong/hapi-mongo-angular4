@@ -1,8 +1,8 @@
 import * as Hapi from "hapi";
 import * as Joi from "joi";
-import UserController from "./user-controller";
-import { UserModel } from "./user";
-import * as UserValidator from "./user-validator";
+import UserController from "./user.controller";
+import { UserModel } from "./user.model";
+import * as UserValidator from "./user.validator";
 import { IDatabase } from "../database";
 import { IServerConfigurations } from "../configurations";
 

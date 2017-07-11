@@ -1,7 +1,7 @@
 import * as Hapi from "hapi";
 import * as Boom from "boom";
-import { IPlugin } from "./plugins/interfaces";
-import { IServerConfigurations } from "./configurations";
+import { IPlugin } from "./@plugins/interfaces";
+import { IServerConfigurations } from "./@configurations";
 import * as Tasks from "./tasks";
 import * as Users from "./users";
 import { IDatabase } from "./database";

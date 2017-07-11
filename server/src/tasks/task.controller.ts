@@ -1,6 +1,6 @@
 import * as Hapi from "hapi";
 import * as Boom from "boom";
-import { ITask } from "./task";
+import { ITask } from "./task.model";
 import { IDatabase } from "../database";
 import { IServerConfigurations } from "../configurations";
 
